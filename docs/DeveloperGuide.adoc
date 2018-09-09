@@ -41,6 +41,7 @@ image::mainClassDiagram.png[]
 [appendix]
 == User Stories
 
+
 Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (unlikely to have) - `*`
 
 [width="100%",cols="22%,<23%,<25%,<30%",options="header",]
@@ -56,6 +57,29 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 
 [appendix]
 == Use Cases
+feature 6
+As a CS21113 lecturer, I can entry students scores for each test and analyze the results automatically so that I can have a list of students who need my help and I will be able to focus on them more or give extra help to them.
+
+MSS:
+1. User requests to record the scores of each student for certain test
+2. The address-book ask the user to locate(give) the input file
+3. The user provides the input file for this test
+4. The address-book starts to record scores
+5. The address-book requires for the analytical standard (under what score or which grade)
+6. User set the standard for analyzation
+7. The address-book starts to analyse the result and list the student below the standard and documented the records.
+8. The address-book asks the user to write some comments/notifications for these students.
+9. user write comments/notifications
+10. The address-book sent the comments/notifications to the students on the list
+ The operation end
+EXTENSION:
+* a. At any time a user chooses to cancel the operation
+*a1. The address-book asks the user to confirm the cancellation
+*a2. The user confirms the cancellation
+The operation ends
+
+
+.
 
 (For all use cases below, the *System* is the `AddressBook` and the *Actor* is the `user`, unless specified otherwise)
 
